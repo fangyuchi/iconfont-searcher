@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "sourceMap": true,
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "strict": false,
+    "noEmitOnError": false,
+    "removeComments": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": ["./src"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "scripts",
+    "webpack",
+    "jest"
+  ]
+}
